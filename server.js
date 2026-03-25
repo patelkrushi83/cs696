@@ -1,3 +1,4 @@
+// This is a test comment for CI trigger
     require('dotenv').config();
     const express = require('express');
     const mongoose = require('mongoose');
