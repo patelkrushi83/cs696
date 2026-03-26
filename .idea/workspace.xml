@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4290cec9-cf77-42b2-98e7-ae21505cec18" name="Changes" comment="adding dcker">
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/console/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/console/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/console/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/console/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/console/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/core/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/core/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/core/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/diff-sequences/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/diff-sequences/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/environment/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/environment/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/environment/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/environment/build/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/environment/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/environment/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/expect-utils/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/expect-utils/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/expect-utils/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/expect-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/expect-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/expect/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/expect/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/expect/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/fake-timers/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/fake-timers/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/fake-timers/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/fake-timers/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/fake-timers/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/fake-timers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/fake-timers/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/globals/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/globals/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/reporters/build/CoverageWorker.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/reporters/build/CoverageWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/reporters/build/CoverageWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/reporters/build/CoverageWorker.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/reporters/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/reporters/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/reporters/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/reporters/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/reporters/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/reporters/build/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/reporters/build/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/reporters/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/reporters/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/snapshot-utils/api-extractor.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/snapshot-utils/api-extractor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/snapshot-utils/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/snapshot-utils/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/snapshot-utils/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/snapshot-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/snapshot-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/test-result/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/test-result/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/test-result/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/test-result/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/test-result/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/test-sequencer/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/test-sequencer/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/test-sequencer/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/test-sequencer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/test-sequencer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/transform/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/transform/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/transform/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/transform/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/transform/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/transform/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/transform/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/types/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/types/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/types/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/types/build/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@jest/types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@jest/types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sinonjs/fake-timers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@sinonjs/fake-timers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sinonjs/fake-timers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@sinonjs/fake-timers/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sinonjs/fake-timers/src/fake-timers-src.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@sinonjs/fake-timers/src/fake-timers-src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-jest/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-jest/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-jest/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-jest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-jest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-plugin-jest-hoist/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-plugin-jest-hoist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-plugin-jest-hoist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-preset-jest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-preset-jest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/compile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/expand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dedent/dist/dedent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dedent/dist/dedent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dedent/dist/dedent.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dedent/dist/dedent.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dedent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dedent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/expect/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/expect/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/expect/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/expect/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/expect/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/expect/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/expect/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-changed-files/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-changed-files/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-changed-files/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-changed-files/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-changed-files/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-circus/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-circus/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-circus/build/jestAdapterInit.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-circus/build/jestAdapterInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-circus/build/jestAdapterInit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-circus/build/jestAdapterInit.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-circus/build/runner.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-circus/build/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-circus/build/runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-circus/build/runner.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-circus/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-circus/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-cli/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-cli/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-cli/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-config/build/chunk-BQ42LXoh.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-config/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-config/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-config/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-config/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-config/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-config/build/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-config/build/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-diff/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-diff/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-diff/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-diff/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-each/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-each/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-each/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-each/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-each/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-environment-node/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-environment-node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-environment-node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-haste-map/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-haste-map/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-haste-map/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-haste-map/build/worker.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-haste-map/build/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-haste-map/build/worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-haste-map/build/worker.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-haste-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-haste-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-leak-detector/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-leak-detector/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-leak-detector/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-matcher-utils/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-matcher-utils/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-matcher-utils/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-matcher-utils/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-matcher-utils/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-matcher-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-matcher-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-message-util/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-message-util/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-message-util/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-message-util/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-message-util/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-mock/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-mock/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-mock/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-mock/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-mock/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-mock/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-mock/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-resolve-dependencies/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-resolve-dependencies/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-resolve-dependencies/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-resolve/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-resolve/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-resolve/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-resolve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-resolve/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runner/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runner/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-runner/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runner/build/testWorker.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runner/build/testWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-runner/build/testWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runner/build/testWorker.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runner/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-runner/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runtime/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runtime/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-runtime/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runtime/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-runtime/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-runtime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-snapshot/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-snapshot/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-snapshot/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-snapshot/build/worker.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-snapshot/build/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-snapshot/build/worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-snapshot/build/worker.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-snapshot/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-snapshot/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-util/build/chunk-BQ42LXoh.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-util/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-util/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-util/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-util/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-util/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-util/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-util/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-validate/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-validate/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-validate/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-validate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-validate/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-watcher/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-watcher/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-watcher/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-watcher/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-watcher/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-worker/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/processChild.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/processChild.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-worker/build/processChild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/processChild.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/threadChild.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/threadChild.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-worker/build/threadChild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/build/threadChild.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest-worker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest-worker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest/build/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest/build/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/assert-valid-pattern.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/assert-valid-pattern.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/ast.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/ast.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/ast.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/ast.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/brace-expressions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/brace-expressions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/brace-expressions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/brace-expressions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/escape.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/escape.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/escape.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/escape.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/unescape.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/unescape.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/unescape.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/commonjs/unescape.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/assert-valid-pattern.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/assert-valid-pattern.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/ast.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/ast.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/ast.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/ast.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/brace-expressions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/brace-expressions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/brace-expressions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/brace-expressions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/escape.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/escape.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/escape.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/escape.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/unescape.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/unescape.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/unescape.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/dist/esm/unescape.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/dist/commonjs/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minipass/dist/commonjs/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/dist/commonjs/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minipass/dist/commonjs/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/dist/commonjs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minipass/dist/commonjs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/dist/commonjs/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minipass/dist/commonjs/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/dist/esm/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minipass/dist/esm/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/dist/esm/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minipass/dist/esm/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/dist/esm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minipass/dist/esm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/dist/esm/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minipass/dist/esm/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minipass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minipass/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-format/build/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-format/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pretty-format/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-format/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pretty-format/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-format/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pretty-format/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/auth.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/auth.test.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Week3Assignment" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;patelkrushi83&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/patelkrushi83/cs696.git&quot;,
+    &quot;accountId&quot;: &quot;dc8ce45b-8448-42a3-8aa3-74a6cb35fb91&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="39SPPRl66DGlO6DP6ZBwTg6qAqL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/krushipatel/Desktop/FullStack/cs696&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4290cec9-cf77-42b2-98e7-ae21505cec18" name="Changes" comment="" />
+      <created>1770686473298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770686473298</updated>
+      <workItem from="1770686474308" duration="7202000" />
+      <workItem from="1771891007031" duration="852000" />
+    </task>
+    <task id="LOCAL-00001" summary="adding dcker">
+      <option name="closed" value="true" />
+      <created>1770778966842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770778966842</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding dcker">
+      <option name="closed" value="true" />
+      <created>1770778990969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770778990969</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding dcker">
+      <option name="closed" value="true" />
+      <created>1774404494628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774404494628</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding dcker">
+      <option name="closed" value="true" />
+      <created>1774404876408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774404876408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding dcker" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding dcker" />
+  </component>
+</project>
