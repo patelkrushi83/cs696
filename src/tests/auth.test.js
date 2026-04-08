@@ -16,7 +16,7 @@
 //    });
 //});
 
-//test case for the login
+//test case for the login in the test
 const supertest = require("supertest");
 const serverApp = require("../../server");
 const User = require("../models/User");
