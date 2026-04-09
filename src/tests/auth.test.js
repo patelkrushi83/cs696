@@ -28,8 +28,10 @@ const SALT_ROUNDS = 10;
 describe("POST /api/auth/login", () => {
 
     let testUser;
+    let server; // ðŸ‘ˆ added
 
     beforeAll(async () => {
+        server = serverApp.listen(0); // ðŸ‘ˆ added (port 0 = random, avoids conflicts)
         if (mongoose.connection.readyState === 0) {
             await mongoose.connect(process.env.MONGO_URI);
         }
@@ -47,6 +49,7 @@ describe("POST /api/auth/login", () => {
     afterAll(async () => {
         //cleaning up the user
         await User.deleteMany({});
+        await server.close();              // ðŸ‘ˆ added
         await mongoose.connection.close();
     });
 
