@@ -47,6 +47,7 @@ describe("POST /api/auth/login", () => {
     afterAll(async () => {
         //cleaning up the user
         await User.deleteMany({});
+        await mongoose.connection.close();
     });
 
     it("should login successfully with email", async () => {
