@@ -17,52 +17,48 @@
 //});
 
 //test case for the login in the test
-const supertest = require(“supertest”);
-const serverApp = require(”../../server”);
-const User = require(”../models/User”);
-const bcrypt = require(“bcrypt”);
-const mongoose = require(“mongoose”);
+const supertest = require("supertest");
+const serverApp = require("../../server");
+const User = require("../models/User");
+const bcrypt = require("bcrypt");
+const mongoose = require("mongoose");
 
 const SALT_ROUNDS = 10;
 
-describe(“POST /api/auth/login”, () => {
+describe("POST /api/auth/login", () => {
 
-```
-let testUser;
-let server; // 👈 added
+    let testUser;
 
-beforeAll(async () => {
-    server = serverApp.listen(0); // 👈 added (port 0 = random, avoids conflicts)
-    if (mongoose.connection.readyState === 0) {
-        await mongoose.connect(process.env.MONGO_URI);
-    }
-    //clearing the DB to avoid the duplication
-    await mongoose.connection.dropDatabase();
-    const passwordHash = await bcrypt.hash("Krushi@145", SALT_ROUNDS);
-    testUser = await User.create({
-        name: "Krushi Patel945",
-        username: "KrushiPatel965",
-        email: "krushipatel97@gmail.com",
-        passwordHash
-    });
-});
-
-afterAll(async () => {
-    //cleaning up the user
-    await User.deleteMany({});
-    await server.close();              // 👈 added
-    await mongoose.connection.close();
-});
-
-it("should login successfully with email", async () => {
-    const res = await supertest(serverApp)
-        .post("/api/auth/login")
-        .send({
-            emailOrUsername: "krushipatel97@gmail.com",
-            password: "Krushi@145"
+    beforeAll(async () => {
+        if (mongoose.connection.readyState === 0) {
+            await mongoose.connect(process.env.MONGO_URI);
+        }
+        //clearing the DB to avoid the duplication
+        await mongoose.connection.dropDatabase();
+        const passwordHash = await bcrypt.hash("Krushi@145", SALT_ROUNDS);
+        testUser = await User.create({
+            name: "Krushi Patel945",
+            username: "KrushiPatel965",
+            email: "krushipatel97@gmail.com",
+            passwordHash
         });
+    });
 
-    expect(res.status).toBe(200);
-    expect(res.body.success).toBe(true);
-});
+    afterAll(async () => {
+        //cleaning up the user
+        await User.deleteMany({});
+        await mongoose.connection.close();
+    });
+
+    it("should login successfully with email", async () => {
+        const res = await supertest(serverApp)
+            .post("/api/auth/login")
+            .send({
+                emailOrUsername: "krushipatel97@gmail.com",
+                password: "Krushi@145"
+            });
+
+        expect(res.status).toBe(200);
+        expect(res.body.success).toBe(true);
+    });
 });
